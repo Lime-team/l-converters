@@ -23,8 +23,5 @@ setup(
     'Operating System :: OS Independent'
   ],
   keywords='converters python l md html',
-  project_urls={
-    'Documentation': 'link'
-  },
-  python_requires='>=3.7'
+  python_requires='>=3.9'
 )
