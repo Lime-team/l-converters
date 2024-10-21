@@ -8,5 +8,8 @@
 ####
     python -m pip install l-converters
 ## how to use:
-    ...
-#### _**! NOW l-converters only convert from HTML/MD to MD/HTML !**_
+    import l_converters
+####
+    # md text to html text
+    print(l_converters.FromMDtoHTML.text_to_text('''# good converter ) ## abc'''))
+#### _**! NOW l-converters only convert from MD to HTML !**_

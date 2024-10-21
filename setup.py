@@ -8,7 +8,7 @@ def readme():
 
 setup(
   name='l-converters',
-  version='alfa',
+  version='1.0.1',
   author='Alexandr246',
   author_email='alexandr246@vk.com',
   description='Converters from smt to smt',
