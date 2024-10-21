@@ -8,7 +8,7 @@ def readme():
 
 setup(
   name='l-converters',
-  version='alfa 1.0.0',
+  version='alfa',
   author='Alexandr246',
   author_email='alexandr246@vk.com',
   description='Converters from smt to smt',
@@ -16,13 +16,13 @@ setup(
   long_description_content_type='text/markdown',
   url='https://github.com/Sasha246sasha/l-converters',
   packages=find_packages(),
-  install_requires=['requests>=2.25.1'],
+  install_requires=['Markdown==3.7'],
   classifiers=[
-    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.9',
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent'
   ],
-  keywords='example python',
+  keywords='converters python l md html',
   project_urls={
     'Documentation': 'link'
   },
